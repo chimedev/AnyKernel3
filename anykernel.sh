@@ -25,4 +25,8 @@ patch_vbmeta_flag=auto;
 
 # boot install
 dump_boot;
+
+# Use the provided dtb
+mv /tmp/anykernel/dtb /tmp/anykernel/split_img/;
+
 write_boot;
